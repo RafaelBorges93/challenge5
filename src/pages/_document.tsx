@@ -1,6 +1,5 @@
-/* eslint-disable prettier/prettier */
+/* eslint-disable */
 import Document, { Html, Head, Main, NextScript } from 'next/document';
-
 export default class MyDocument extends Document {
   render() {
     return (
@@ -16,6 +15,11 @@ export default class MyDocument extends Document {
         <body>
           <Main/>
           <NextScript/>
+          <script 
+          async 
+          defer 
+          src="https://static.cdn.prismic.io/prismic.js?new=true&repo=challenge005">
+          </script>          
         </body>
       </Html>
     )
